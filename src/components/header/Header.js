@@ -26,9 +26,13 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-          <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
+          <span className="white-color">01001110 </span>
+          <span className="grey-color">01101001 </span>
+          <span className="white-color">01100011 </span>
+          <span className="grey-color">01100101 </span>
+          <span className="white-color">00100001 </span>
+          {/* <span className="logo-name">{greeting.username}</span> */}
+          {/* <span className="grey-color">/&gt;</span> */}
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -69,14 +73,14 @@ function Header() {
               <a href="#talks">Talks</a>
             </li>
           )}
-          <li>
+          {/* <li>
             <a href="#contact">Contact Me</a>
-          </li>
+          </li> */}
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a>
+            {/* <a>
               <ToggleSwitch />
-            </a>
+            </a> */}
           </li>
         </ul>
       </header>

@@ -29,12 +29,12 @@ export default class Main extends Component {
   componentDidMount() {
     if (localStorage.getItem("isDark") === null) {
       const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
-      localStorage.setItem("isDark", darkPref.matches);
+      localStorage.setItem("isDark", true);
     }
-    this.setState({isDark: JSON.parse(localStorage.getItem("isDark"))});
+    this.setState({isDark: true});
   }
   changeTheme = () => {
-    this.setState({isDark: !this.state.isDark}, () => {
+    this.setState({isDark: true}, () => {
       localStorage.setItem("isDark", this.state.isDark);
     });
   };
@@ -58,7 +58,7 @@ export default class Main extends Component {
           <Talks />
           <Twitter />
           <Podcast />
-          <Profile />
+          {/* <Profile /> */}
           <Footer />
           <Top />
         </StyleProvider>
