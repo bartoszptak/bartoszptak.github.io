@@ -3,6 +3,10 @@
   "name": "@bartoszptak/bartoszptak.github.io",
   "version": "0.1.0",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bartoszptak/bartoszptak.github.io.git"
+  },
   "dependencies": {
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
