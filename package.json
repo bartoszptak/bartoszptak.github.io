@@ -1,6 +1,6 @@
 {
   "homepage": "https://bartoszptak.github.io/",
-  "name": "bartoszptak.github.io",
+  "name": "@bartoszptak/bartoszptak.github.io",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
