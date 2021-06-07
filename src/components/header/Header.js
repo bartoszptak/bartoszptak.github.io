@@ -26,11 +26,18 @@ function Header() {
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
-          <span className="white-color">01001110 </span>
-          <span className="grey-color">01101001 </span>
-          <span className="white-color">01100011 </span>
-          <span className="grey-color">01100101 </span>
-          <span className="white-color">00100001 </span>
+          <span className="white-color">0x4e </span>
+          <span className="grey-color">0x69 </span>
+          <span className="white-color">0x63 </span>
+          <span className="grey-color">0x65 </span>
+          <span className="white-color">0x20 </span>
+          <span className="white-color">0x77 </span>
+          <span className="grey-color">0x6f </span>
+          <span className="white-color">0x72 </span>
+          <span className="grey-color">0x6b </span>
+          <span className="white-color">0x21 </span>
+
+                   21
           {/* <span className="logo-name">{greeting.username}</span> */}
           {/* <span className="grey-color">/&gt;</span> */}
         </a>

@@ -12,9 +12,9 @@ const illustration = {
 
 const greeting = {
   username: "Bartosz Ptak",
-  title: "Hello, I'm Bartosz Ptak",
+  title: "Hello! I'm Bartosz Ptak",
   subTitle: emoji(
-    "Master’s Degree student of Robots and Autonomous Systems specialization at Poznan University of Technology, interested in GPUs, EDGE devices, deep learning and image processing."
+    "and I'm Master’s Degree student of Robots and Autonomous Systems specialization at Poznan University of Technology, interested in GPUs, EDGE devices, deep learning and image processing."
   ),
   displayGreeting: true // Set false to hide this section, defaults to true
 };
